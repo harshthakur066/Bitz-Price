@@ -1,11 +1,12 @@
-import Header from "../components/header";
+import Layout from "../components/layout";
 
 const About = () => (
-  <div>
-    <Header />
-    <h1>Welcome to BitzPrice</h1>
-    <p>App to view bitcoin prices</p>
-  </div>
+  <Layout>
+    <div>
+      <h1>Welcome to BitzPrice</h1>
+      <p>App to view bitcoin prices</p>
+    </div>
+  </Layout>
 );
 
 export default About;
